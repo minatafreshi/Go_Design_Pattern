@@ -1,0 +1,5 @@
+package Creational
+
+import (
+	"sync"
+)
