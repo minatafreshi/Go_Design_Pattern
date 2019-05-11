@@ -1,0 +1,3 @@
+package Creational
+
+type MyMusstang
