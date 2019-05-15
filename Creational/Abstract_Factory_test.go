@@ -1,4 +1,4 @@
-package creational
+package Creational
 
 import (
 	"bytes"
@@ -55,7 +55,7 @@ func TestDraw_WhenFactoryIsSimpleAndCreateStraightShapeIsCalled_PrintsSquareDraw
 	assert.Equal(t, "I am a square.", outputWriter.(*bytes.Buffer).String())
 }
 
-func TestCreateCurvedShape_WhenFactoryIsRobust_ReturnsEllipse(t *testing.T) {
+	func TestCreateCurvedShape_WhenFactoryIsRobust_ReturnsEllipse(t *testing.T) {
 	factory := NewRobustShapeFactory()
 	shape := factory.CreateCurvedShape()
 	_, ok := shape.(*ellipse)
