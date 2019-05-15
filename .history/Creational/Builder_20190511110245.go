@@ -1,3 +1,0 @@
-package Creational
-
-type MyMu

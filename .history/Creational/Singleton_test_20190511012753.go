@@ -1,6 +1,0 @@
-package Creational
-
-import (
-		"testing"
-		
-)
